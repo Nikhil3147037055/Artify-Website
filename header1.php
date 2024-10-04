@@ -23,7 +23,7 @@
         },
       });
     </script>
-<style>
+    <style>
   .ma{
     background-color:#ffad46;
   }
@@ -31,6 +31,8 @@
     background-color: rgb(255 158 39) ;
   }
 </style>
+
+
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/plugins.min.css" />
@@ -52,12 +54,12 @@
 ?>
        <div class="wrapper">
       <!-- Sidebar -->
-      <div class="sidebar">
+      <div class="sidebar" >
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header ma" >
-            <a href="admin_panel.php">
-              <h3>Admin Panel</h3>
+            <a href="empoly_panel.php">
+              <h3>Employee Panel</h3>
             </a>
             <div class="nav-toggle">
               <button class="btn btn-toggle toggle-sidebar">
@@ -103,84 +105,29 @@
                 </span>
                 <h4 class="text-section">Components</h4>
               </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#base">
-                  <i class="fas fa-layer-group"></i>
-                  <p>Catagaries</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="base">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="add_catagaries_form.php">
-                        <span class="sub-item">Add Categaries</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="veiw_categaries_table.php">
-                        <span class="sub-item">Veiw Categaries</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
+              
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarLayouts">
                   <i class="fas fa-th-list"></i>
-                  <p>Products</p>
+                  <p>Products Status Report</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="sidebarLayouts">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="add_product_form.php">
-                        <span class="sub-item">Add Products</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="veiw_product.php">
-                        <span class="sub-item">Veiw Products</span>
+                      <a href="Delivery_report.php">
+                        <span class="sub-item">Products Status</span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
              
+            
               
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#forms">
-                  <i class="fas fa-pen-square"></i>
-                  <p>Orders</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="forms">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="view_orders.php">
-                        <span class="sub-item">Veiw Orders</span>
-                      </a>
-                    </li>
-                  </ul>
-</div>
-</li>
-
-<li class="nav-item">
-                <a data-bs-toggle="collapse" href="#charts">
-                  <i class="far fa-chart-bar"></i>
-                  <p>Add Employes</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="charts">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="add_employee.php">
-                        <span class="sub-item">Add Employe Form</span>
-                      </a>
-                    </li>
-                  
-                  </ul>
-                </div>
-              </li>
+           
+             
+              
               
             </ul>
           </div>
@@ -189,8 +136,8 @@
       <!-- End Sidebar -->
 
       <div class="main-panel">
-        <div class="main-header ">
-          <div class="main-header-logo ">
+        <div class="main-header">
+          <div class="main-header-logo">
             <!-- Logo Header -->
             <div class="logo-header" data-background-color="dark">
               <a href="index.html" class="logo">
@@ -242,7 +189,7 @@
                   class="nav-item topbar-icon dropdown hidden-caret d-flex d-lg-none"
                 >
                   <a
-                    class="nav-link dropdown-toggle "
+                    class="nav-link dropdown-toggle"
                     data-bs-toggle="dropdown"
                     href="#"
                     role="button"
@@ -557,9 +504,9 @@
                               ?>
                             </p>
                             <a
-                              href="profile.html"
+                              href="change_password.php"
                               class="btn btn-xs btn-secondary btn-sm"
-                              >View Profile</a
+                              >Change_password</a
                             >
                           </div>
                         </div>
